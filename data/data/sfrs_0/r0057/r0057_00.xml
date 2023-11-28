@@ -1,0 +1,26 @@
+<annotation>
+	<folder>r0057</folder>
+	<filename>r0057_00.png</filename>
+	<path>C:\Users\User\Desktop\Projects\form-ocr\data\data\sfrs_0\r0057\r0057_00.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>3300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>483</xmin>
+			<ymin>336</ymin>
+			<xmax>1969</xmax>
+			<ymax>663</ymax>
+		</bndbox>
+	</object>
+</annotation>
