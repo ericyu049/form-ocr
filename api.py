@@ -114,7 +114,7 @@ def parseWithGPT(text_list):
         'role': "user"
     }
     print(num_tokens_from_messages([data]))
-    chatgpt = OpenAI(api_key = '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')
+    chatgpt = OpenAI(api_key = '')
     response = chatgpt.chat.completions.create(
         model='gpt-3.5-turbo-0613',
         response_format={ "type": "json_object" },
