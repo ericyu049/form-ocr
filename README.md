@@ -21,7 +21,7 @@ The process of the training is seperated into several phases.
 
  ### Find Boundary Box Model Training
 
- After we label all the data, we need to train a model that can predict the boundary of the first section of the form. In this project we are using PyTorch and we will be doing a transfer training with fasterrcnn_resnet50_fpn model.
+ After we label all the data, we need to train a model that can predict the boundary of the first section of the form. In this project we are using PyTorch and we will be doing a transfer training with fasterrcnn_resnet50_fpn model, since this problem is actually very similar to object detection/recognition problem. 
 
  ### Performing OCR for the Cropped Section
 
