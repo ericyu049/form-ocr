@@ -25,4 +25,4 @@ The process of the training is seperated into several phases.
 
  ### Performing OCR for the Cropped Section
 
- After training the model, we will need to actually perform OCR on the model. The original plan was actually to train another model to extract the text from the image, but there are actually pretty robust libraries out there that can do the job pretty well. One option is [easyocr](https://github.com/JaidedAI/EasyOCR), which is what we used in this project. After that, we use generative AI (ChatGPT API) to extract the name and address, and to filter out the other texts that we don't want.
+ After training the model, we will need to actually perform OCR on the model. The original plan was actually to train another model to extract the text from the image, but there are actually pretty robust libraries out there that can do the job pretty well. One option is [easyocr](https://github.com/JaidedAI/EasyOCR), which is what we used in this project. After that, we use generative AI (ChatGPT API) from [OpenAI](https://platform.openai.com/docs/overview) to extract the name and address, and to filter out the other texts that we don't want.
